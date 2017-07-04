@@ -1,0 +1,191 @@
+[
+  {
+    "id": "1",
+    "category": "Filozofija",
+    "name": "The Way of Zen",
+    "author": "Alan Watts",
+    "image": "The Way of Zen - Alan Watts.jpg",
+    "price": "565.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "2",
+    "category": "Nauka",
+    "name": "Pale Blue Dot",
+    "author": "Carl Sagan",
+    "image": "Pale Blue Dot - Carl Sagan.jpg",
+    "price": "710.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "3",
+    "category": "Nauka",
+    "name": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "image": "A Brief History of Time - Stephen Hawking.jpg",
+    "price": "1333.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "4",
+    "category": "Poezija",
+    "name": "Tagore, The Poetry of",
+    "author": "Rabindranath Tagore",
+    "image": "Tagore, The Poetry of - Rabindranath Tagore.jpg",
+    "price": "500.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "5",
+    "category": "Poezija",
+    "name": "Selected Poems",
+    "author": "Jacques Prevert",
+    "image": "Selected Poems - Jacques Prevert.jpg",
+    "price": "490.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "6",
+    "category": "Filozofija",
+    "name": "Nausea",
+    "author": "Jean-Paul Sartre",
+    "image": "Nausea - Jean-Paul Sartre.jpg",
+    "price": "657.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "7",
+    "category": "Duhovnost",
+    "name": "Zen Mind, Begginer`s Mind",
+    "author": "Shunryu Suzuki",
+    "image": "Zen Mind, Begginer`s Mind - Shunryu Suzuki.jpg",
+    "price": "810.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "8",
+    "category": "Umetnost",
+    "name": "The Art of Photography",
+    "author": "Bruce Barnbaum",
+    "image": "The Art of Photography - Bruce Barnbaum.jpg",
+    "price": "1700.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "9",
+    "category": "Filozofija",
+    "name": "Hagakure",
+    "author": "Yamamoto Tsunemoto",
+    "image": "Hagakure, The Book of the Samurai - Yamamoto Tsunemoto.jpg",
+    "price": "799.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "10",
+    "category": "Filozofija",
+    "name": "The Art of War",
+    "author": "Sun Tzu",
+    "image": "The Art of War - Sun Tzu.jpg",
+    "price": "595.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "11",
+    "category": "Muzika",
+    "name": "The Real Frank Zappa Book",
+    "author": "Peter Occhiogrosso",
+    "image": "The Real Frank Zappa Book - Peter Occhiogrosso.jpg",
+    "price": "748.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "12",
+    "category": "Muzika",
+    "name": "Room Full of Mirrors",
+    "author": "Charles R. Cross",
+    "image": "Room Full of Mirrors - Charles R. Cross.jpg",
+    "price": "885.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "13",
+    "category": "Klasici",
+    "name": "Les Miserables",
+    "author": "Victor Hugo",
+    "image": "Les Miserables - Victor Hugo.jpg",
+    "price": "859.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "14",
+    "category": "Naučna fantastika",
+    "name": "Brave New World",
+    "author": "Aldous Huxley",
+    "image": "Brave New World - Aldous Huxley.jpg",
+    "price": "680.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "15",
+    "category": "Naučna fantastika",
+    "name": "1984",
+    "author": "George Orwell",
+    "image": "1984 - George Orwell.jpg",
+    "price": "720.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "16",
+    "category": "Muzika",
+    "name": "No One Here Gets Out Alive",
+    "author": "Jerry Hopkins & Danny Sugerman",
+    "image": "No One Here Gets Out Alive - Jerry Hopkins & Danny Sugerman.jpg",
+    "price": "835.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "17",
+    "category": "Biografija",
+    "name": "Elon Musk, Inventing the Future",
+    "author": "Ashlee Vance",
+    "image": "Elon Musk, Inventing the Future - Ashlee Vance.jpg",
+    "price": "1229.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "18",
+    "category": "Biografija",
+    "name": "Into the Wild",
+    "author": "Jon Krakauer",
+    "image": "Into the Wild - Jon Krakauer.jpg",
+    "price": "990.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "19",
+    "category": "Umetnost",
+    "name": "Leonardo's Notebooks",
+    "author": "H. Anna Suh",
+    "image": "Leonardo's Notebooks - H. Anna Suh.jpg",
+    "price": "1470.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "20",
+    "category": "Umetnost",
+    "name": "History of Beauty",
+    "author": "Umberto Eco",
+    "image": "History of Beauty - Umberto Eco.jpg",
+    "price": "1640.00",
+    "description": "Lorem ispsum dolor..."
+  },
+  {
+    "id": "21",
+    "category": "Umetnost",
+    "name": "Steal Like an Artist",
+    "author": "Austin Kleon",
+    "image": "Steal Like an Artist - Austin Kleon.jpg",
+    "price": "950.00",
+    "description": "Lorem ispsum dolor..."
+  }
+]
