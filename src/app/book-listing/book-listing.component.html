@@ -1,4 +1,24 @@
-
-    <div *ngFor="let book of books">
-        <app-book-card [book]="book"></app-book-card>
+<div class="row equal">
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <div class="col-sm-4">
+        <label for="sort-field">Sort by</label>
+        <select
+          name="sort-field"
+          id="sort-field"
+          class="form-control"
+          [(ngModel)]="sortField">
+            <option
+            *ngFor="let field of sortFields"
+            [value]="field">
+              {{ utilService.capitalize(field) }}
+            </option>
+        </select>
+      </div>
     </div>
+  </div>
+  <div *ngFor="let book of books">
+    <app-book-card [book]="book"></app-book-card>
+  </div>
+</div>
+
