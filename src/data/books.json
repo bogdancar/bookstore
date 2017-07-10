@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "category": "Filozofija",
+    "category": "Philosophy",
     "name": "The Way of Zen",
     "author": "Alan Watts",
     "image": "The Way of Zen - Alan Watts.jpg",
@@ -10,7 +10,7 @@
   },
   {
     "id": "2",
-    "category": "Nauka",
+    "category": "Science",
     "name": "Pale Blue Dot",
     "author": "Carl Sagan",
     "image": "Pale Blue Dot - Carl Sagan.jpg",
@@ -19,7 +19,7 @@
   },
   {
     "id": "3",
-    "category": "Nauka",
+    "category": "Science",
     "name": "A Brief History of Time",
     "author": "Stephen Hawking",
     "image": "A Brief History of Time - Stephen Hawking.jpg",
@@ -28,7 +28,7 @@
   },
   {
     "id": "4",
-    "category": "Poezija",
+    "category": "Poetry",
     "name": "Tagore, The Poetry of",
     "author": "Rabindranath Tagore",
     "image": "Tagore, The Poetry of - Rabindranath Tagore.jpg",
@@ -37,7 +37,7 @@
   },
   {
     "id": "5",
-    "category": "Poezija",
+    "category": "Poetry",
     "name": "Selected Poems",
     "author": "Jacques Prevert",
     "image": "Selected Poems - Jacques Prevert.jpg",
@@ -46,7 +46,7 @@
   },
   {
     "id": "6",
-    "category": "Filozofija",
+    "category": "Philosophy",
     "name": "Nausea",
     "author": "Jean-Paul Sartre",
     "image": "Nausea - Jean-Paul Sartre.jpg",
@@ -55,7 +55,7 @@
   },
   {
     "id": "7",
-    "category": "Duhovnost",
+    "category": "Spirituality",
     "name": "Zen Mind, Begginer`s Mind",
     "author": "Shunryu Suzuki",
     "image": "Zen Mind, Begginer`s Mind - Shunryu Suzuki.jpg",
@@ -64,7 +64,7 @@
   },
   {
     "id": "8",
-    "category": "Umetnost",
+    "category": "Art",
     "name": "The Art of Photography",
     "author": "Bruce Barnbaum",
     "image": "The Art of Photography - Bruce Barnbaum.jpg",
@@ -73,7 +73,7 @@
   },
   {
     "id": "9",
-    "category": "Filozofija",
+    "category": "Philosophy",
     "name": "Hagakure",
     "author": "Yamamoto Tsunemoto",
     "image": "Hagakure, The Book of the Samurai - Yamamoto Tsunemoto.jpg",
@@ -82,7 +82,7 @@
   },
   {
     "id": "10",
-    "category": "Filozofija",
+    "category": "Philosophy",
     "name": "The Art of War",
     "author": "Sun Tzu",
     "image": "The Art of War - Sun Tzu.jpg",
@@ -91,7 +91,7 @@
   },
   {
     "id": "11",
-    "category": "Muzika",
+    "category": "Music",
     "name": "The Real Frank Zappa Book",
     "author": "Peter Occhiogrosso",
     "image": "The Real Frank Zappa Book - Peter Occhiogrosso.jpg",
@@ -100,7 +100,7 @@
   },
   {
     "id": "12",
-    "category": "Muzika",
+    "category": "Music",
     "name": "Room Full of Mirrors",
     "author": "Charles R. Cross",
     "image": "Room Full of Mirrors - Charles R. Cross.jpg",
@@ -109,7 +109,7 @@
   },
   {
     "id": "13",
-    "category": "Klasici",
+    "category": "Classic",
     "name": "Les Miserables",
     "author": "Victor Hugo",
     "image": "Les Miserables - Victor Hugo.jpg",
@@ -118,7 +118,7 @@
   },
   {
     "id": "14",
-    "category": "Naučna fantastika",
+    "category": "Sci/Fi",
     "name": "Brave New World",
     "author": "Aldous Huxley",
     "image": "Brave New World - Aldous Huxley.jpg",
@@ -127,7 +127,7 @@
   },
   {
     "id": "15",
-    "category": "Naučna fantastika",
+    "category": "Sci/Fi",
     "name": "1984",
     "author": "George Orwell",
     "image": "1984 - George Orwell.jpg",
@@ -136,7 +136,7 @@
   },
   {
     "id": "16",
-    "category": "Muzika",
+    "category": "Music",
     "name": "No One Here Gets Out Alive",
     "author": "Jerry Hopkins & Danny Sugerman",
     "image": "No One Here Gets Out Alive - Jerry Hopkins & Danny Sugerman.jpg",
@@ -145,7 +145,7 @@
   },
   {
     "id": "17",
-    "category": "Biografija",
+    "category": "Biography",
     "name": "Elon Musk, Inventing the Future",
     "author": "Ashlee Vance",
     "image": "Elon Musk, Inventing the Future - Ashlee Vance.jpg",
@@ -154,7 +154,7 @@
   },
   {
     "id": "18",
-    "category": "Biografija",
+    "category": "Biography",
     "name": "Into the Wild",
     "author": "Jon Krakauer",
     "image": "Into the Wild - Jon Krakauer.jpg",
@@ -163,7 +163,7 @@
   },
   {
     "id": "19",
-    "category": "Umetnost",
+    "category": "Art",
     "name": "Leonardo's Notebooks",
     "author": "H. Anna Suh",
     "image": "Leonardo's Notebooks - H. Anna Suh.jpg",
@@ -172,7 +172,7 @@
   },
   {
     "id": "20",
-    "category": "Umetnost",
+    "category": "Art",
     "name": "History of Beauty",
     "author": "Umberto Eco",
     "image": "History of Beauty - Umberto Eco.jpg",
@@ -181,7 +181,7 @@
   },
   {
     "id": "21",
-    "category": "Umetnost",
+    "category": "Art",
     "name": "Steal Like an Artist",
     "author": "Austin Kleon",
     "image": "Steal Like an Artist - Austin Kleon.jpg",

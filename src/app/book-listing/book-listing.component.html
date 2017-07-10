@@ -22,13 +22,13 @@
           <button class="btn btn-primary"
           [ngClass]="{'btn-success': sortDirection == 'asc'}"
           (click)="sortDirection = 'asc'">
-            Asc
+            <span class="glyphicon glyphicon-arrow-up"></span>
           </button>
 
           <button class="btn btn-primary"
           [ngClass]="{'btn-success': sortDirection == 'desc'}"
           (click)="sortDirection = 'desc'">
-            Desc
+            <span class="glyphicon glyphicon-arrow-down"></span>
           </button>
 
         </div>

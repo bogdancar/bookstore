@@ -17,15 +17,29 @@ export class SortByPipe implements PipeTransform {
         modifier = -1;
       }
 
-      array.sort((a: any, b: any) => {
-        if (a[sortField] < b[sortField]) {
-          return -1 * modifier;
-        } else if (a[sortField] > b[sortField]) {
-          return 1 * modifier;
-        } else {
-          return 0;
-        }
-      });
+    //  array.sort((a: any, b: any) => {
+    //    if (a[sortField] < b[sortField]) {
+    //      return -1 * modifier;
+    //    } else if (a[sortField] > b[sortField]) {
+    //      return 1 * modifier;
+    //    } else {
+    //      return 0;
+    //    }
+    //  });
+
+    array.sort((a: any, b: any) => {
+    let [aSortable, bSortable] = [a[sortField], b[sortField]];
+    if (sortField === 'price') {
+        aSortable = parseFloat(aSortable), bSortable = parseFloat(bSortable);
+    }
+    if (aSortable < bSortable) {
+        return -1 * modifier;
+    } else if (aSortable > bSortable) {
+        return 1 * modifier;
+    } else {
+        return 0;
+    }
+});
 
       return array;
     }
