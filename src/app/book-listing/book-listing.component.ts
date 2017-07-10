@@ -10,7 +10,8 @@ import { UtilService } from './../services/util.service';
 })
 export class BookListingComponent implements OnInit {
 
-  books: Array<any>;
+  books: Array<any> = [];
+  booksDatasource: Array<any> = [];
   error: string;
   sortField: string = 'price';
   sortDirection: string = 'asc';
@@ -18,6 +19,7 @@ export class BookListingComponent implements OnInit {
     'name',
     'price'
   ];
+  categoryArray = ['All'];
 
   constructor(
     private http: Http,
@@ -28,8 +30,34 @@ export class BookListingComponent implements OnInit {
   ngOnInit() {
     this.booksService.getAllBooks()
       .subscribe(
-        data => this.books = data,
-        error => this.error = error.statusText
+      data => {
+        this.booksDatasource = data;
+        this.books = this.booksDatasource;
+        this.fillCategory(this.booksDatasource, this.categoryArray);
+      },
+      error => this.error = error.statusText
       );
+  }
+
+  fillCategory(data, categoryArray) {
+    for (const book of data) {
+      if (categoryArray.indexOf(book.category) === -1) {
+        categoryArray.push(book.category);
+      }
+    }
+  }
+
+  categoryChanged(cat) {
+    if (cat === 'All') {
+      this.books = this.booksDatasource;
+    } else {
+      this.books = this.booksDatasource.filter(item => {
+        if (item.category === cat) {
+          return true;
+        }
+        return false;
+      }
+      );
+    }
   }
 }

@@ -33,8 +33,19 @@
 
         </div>
       </div>
-    </div>
-  </div>
+
+      <div class="col-sm-4">
+        <label for="sort-field">Category</label>
+        <select (change)="categoryChanged($event.target.value)" name="cat-field" id="cat-field" class="form-control">
+            <option
+            *ngFor="let cat of categoryArray"
+            [value]="cat">
+              {{ cat }}
+            </option>
+        </select>
+      </div>
+      </div>
+      </div>
   <div *ngFor="let book of books | sortBy: [sortField, sortDirection]">
     <app-book-card [book]="book"></app-book-card>
   </div>
